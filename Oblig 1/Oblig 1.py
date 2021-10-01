@@ -1,5 +1,6 @@
 ### Enter your bet ### -lars
 def bet():
+	bet = 0
 	bet = input("Enter a how much you want to bet: ")
 	if bet.isdigit():
 		bet = int(bet)
@@ -21,6 +22,6 @@ def main():
 #	
 #	while bet > 0:
 #		pass
-	
+#	
 	
 main()
